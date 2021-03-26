@@ -1,0 +1,21 @@
+.bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.btn1{
+    transition-duration: 0.4s;
+    width: 50px;
+    cursor: pointer;
+}
+.btn1:hover:enabled{
+    background-color: limegreen;
+    color: white;
+    border-radius: 8%;
+}
+
+.btn1:disabled{
+    opacity: 0.8;
+    cursor: not-allowed;
+}

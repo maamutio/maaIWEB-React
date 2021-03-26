@@ -1,0 +1,23 @@
+.info{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.question-img{
+    width: 100vmin;
+    height: 50vmin;
+    border-radius: 8px;
+}
+.autor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: khaki;
+}
+.author-img{
+    width: 5vmax;
+    height: auto;
+    border-radius: 80%;
+}

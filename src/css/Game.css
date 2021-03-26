@@ -1,0 +1,24 @@
+.game{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.game-play{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*.question{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}*/
+.Actionbar{
+    display: flex;
+    align-content: flex-end;
+}
